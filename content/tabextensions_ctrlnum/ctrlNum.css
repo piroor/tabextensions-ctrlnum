@@ -1,0 +1,18 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#tabextensions-ctrlNum-popups * {
+	min-width: 0;
+	min-height: 0;
+}
+
+#tabextensions-ctrlNum-popups popup {
+	-moz-appearance: tooltip;
+	margin-top: 21px;
+	border: 1px solid InfoText;
+	padding: 2px 3px;
+	max-width: 20em;
+	background-color: InfoBackground;
+	color: InfoText;
+	font: message-box;
+}
+

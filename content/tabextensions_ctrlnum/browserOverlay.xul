@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://tabextensions_ctrlnum/content/ctrlNum.css" type="text/css"?>
+
+<overlay
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://tabextensions_ctrlnum/content/ctrlNum.js"/>
+
+<popupset id="mainPopupSet">
+	<popupset id="popupset_tabextensions">
+		<popupset id="tabextensions-ctrlNum-popups">
+			<popup id="tabextensions-ctrlNum-1">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-2">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-3">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-4">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-5">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-6">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-7">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-8">
+				<label/>
+			</popup>
+			<popup id="tabextensions-ctrlNum-9">
+				<label/>
+			</popup>
+		</popupset>
+	</popupset>
+</popupset>
+
+
+</overlay>
